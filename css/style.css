@@ -1,0 +1,329 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body {
+  height: 100%;
+}
+
+header, main, footer {
+    width: 1040px;
+    margin:0 auto;
+}
+
+#logo{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    line-height: 100px;
+    font-size: 24px;
+    display: inline-block;
+    float: left;
+}
+
+.mainnav ul{
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+    padding-top: 40px;
+}
+
+.mainnav li{
+    margin: 50px;
+    display: inline;
+}
+
+.mainnav a{
+    text-decoration: none;
+    color: white;
+}
+
+.mainnav a:hover{
+    text-decoration: underline;
+}
+
+.mainnav li.active a{
+    font-weight: bold;
+}
+
+.pink{
+    color:  #ff00e5;
+}
+
+#wrapper{
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    width: 100%;
+}
+
+header{
+    height:120px;    
+}
+
+main{
+    padding-bottom: 100px;
+    margin-top: 40px;
+}
+
+footer{   
+    margin: -100px auto 0;
+    position: relative;
+    height: 100px;
+}
+
+body{
+    background-color: #380577;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+
+}
+
+.main__img--float{
+    width: 550px;
+    margin-right: 40px;
+    float: left;
+}
+
+#panorama {
+    width: 100%;
+    height: 150px;
+    background: url(../img/2.jpg) no-repeat center 70%;
+    background-size: cover; /*масштабирование фона*/
+}
+
+.services__item {
+    margin-right: 40px;
+    margin-left: 40px;
+    width: 240px;
+    float:left;
+}
+
+.services {
+    padding: 35px;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.h1—invisible {
+    visibility: hidden;
+}
+
+.main__item {
+    text-align: center;
+}
+
+.main__item p{
+    width: 650px;
+    text-align: justify;
+    margin: 0 auto;
+}
+
+.сontaсts{
+    margin-right: auto;
+    margin-left: auto;
+    width: 250px;
+    text-align: center;
+}
+
+.writeToUs{
+    text-transform: uppercase;
+    color: white;
+    font-size: 18px;
+}
+
+.footer__block{
+    display: inline-block;
+    width: 335px;
+    text-transform: uppercase;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover{
+    text-decoration: underline;
+    color: #ff00e5;
+}
+
+.footer__icons{
+    text-align: right;
+    display: inline-block;
+    width: 335px;
+}
+
+.footer__img{
+    width: 50px;
+    margin: 10px;
+}
+
+.services a:hover{
+    text-decoration: underline;
+    color: #ff00e5;
+}
+
+.services a{
+    text-decoration: none;
+}
+
+.services a span{
+    color: #ff00e5;
+}
+
+h1,h2{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.footer__block:nth-child(2){
+    text-align: center;
+}
+
+.new::after{
+    content: "new";
+    font-size: 10px;
+    vertical-align: super;
+    background-color: violet;
+    border-radius: 2px;
+    padding: 3px;
+    margin-left: 5px;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+td, th{
+    text-align: center;
+    padding: 10px;
+}
+
+thead tr{
+    border-top: 5px solid #ff00e5;
+    border-bottom: 5px solid #ff00e5;
+}
+
+tbody tr{
+    border-top: 2px solid silver;
+    border-bottom: 2px solid silver;
+}
+
+tbody tr:nth-child(2n){
+    background-color: rgb(140, 124, 240);
+}
+
+.price td:nth-child(3){
+    text-align: start;
+}
+
+.price th:first-child{
+    width: 10%;
+}
+
+.price th:nth-child(2), .price th:last-child{
+    width: 25%;
+}
+
+#contact-form input[type="text"]{
+    height: 20px;
+    width: 250px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: white solid 1px;
+    background:#cba8f8;
+}
+
+#contact-form input[type="email"]{
+    height: 20px;
+    width: 250px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: white solid 1px;
+    background:#cba8f8;
+}
+
+#contact-form input[type="tel"]{
+    height: 20px;
+    width: 250px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: white solid 1px;
+    background:#cba8f8;
+}
+
+#contact-form input[type="date"]{
+    height: 20px;
+    width: 250px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: white solid 1px;
+    background:#cba8f8;
+}
+
+#contact-form input[type="submit"]{
+    color: #380577;
+    font-size: 20px;
+    font-style: italic;
+    text-transform: uppercase;
+    padding: 10px;
+    background: #cba8f8;
+    border: 0;
+}
+
+#contact-form input[type="submit"]:hover{
+    background: #9e5eec;
+}
+
+#contact-form select{
+    height: 20px;
+    width: 250px;
+    margin-bottom: 10px;
+    border: white solid 1px;
+    background:#cba8f8;
+}
+
+#contact-form textarea{
+    border: white solid 1px;
+    width: 250px;
+    background:#cba8f8;
+}
+
+#contact-form label{
+    font-style: italic;
+}
+
+.clients__item {
+    margin-right: 40px;
+    margin-left: 40px;
+    width: 240px;
+    float:left;
+}
+
+.clients {
+    padding: 35px;
+}
+
+.clients a:hover{
+    text-decoration: underline;
+    color: #ff00e5;
+}
+
+.clients a{
+    text-decoration: none;
+}
+
+.clients a span{
+    color: #ff00e5;
+}
